@@ -1,0 +1,40 @@
+* {
+    background-color: rgba(215, 245, 174, 0.103);
+}
+
+h1 {
+    color: rgb(54, 68, 30);
+    background-color: rgba(128, 255, 0, 0.375);
+    font-size: xx-large;
+    font-weight: 1000;
+}
+
+section {
+    background-color: rgba(172, 255, 47, 0.281);
+}
+
+footer {
+    font-size:small;
+    color: rgba(85, 107, 47, 0.703);
+}
+
+a {
+    font-size: small;
+}
+
+nav {
+    float: right;
+}
+
+h2 {
+    color: darkolivegreen;
+}
+
+h3 {
+    color: rgb(61, 77, 35);  
+}
+
+p {
+    font-size:small;
+    color: rgb(38, 48, 21);
+}

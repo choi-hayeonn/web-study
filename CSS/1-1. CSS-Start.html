@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Start</title>
+    <!-- CSS 참조방식 3.  링크방식 : link를 통해 외부 CSS 파일과 연결 -->
+    <link rel="stylesheet" href="./1-2.CSS-Start.css">
+        <!-- 외부 링크방식과 내장방식은 같이 쓰지 않는 것을 권장. 같이 쓴다면, 나중에 저장된 것을 우선으로 css 적용. -->
+    <!-- CSS 참조방식 2. 내장방식 : head 내부에 style를 통해 CSS를 작성-->
+     <style>
+        body {
+            margin: 0;
+        }
+        h1, h2 {
+            color: rgb(30, 63, 45);
+            /* 내장방식보다 인라인 방식의 우선순위가 더 높다. */
+        }
+        ul {
+            background-color: rgba(111, 167, 148, 0.507);
+        }
+        li {
+            color: rgb(13, 103, 73);
+        }
+     </style>
+</head>
+<body>
+    <!-- CSS 참조방식 1. 인라인 : 태그 안에 쓰는 방식 
+     (권장되는 방식 아님. 재사용 불가, 가독성↓/ but 최근에는 다시 부각되고 있음.(단점 극복, 축약용어를 사용하여 tailwindcss))-->
+    <h1 
+        style="
+        /* color: rgba(5, 5, 162, 0.698);  */
+        /* background-color: rgba(144, 146, 214, 0.402);  */
+        font-size: x-large; 
+        /* padding: 50px */
+        "
+    >
+        CSS 공부를 시작해요!
+    </h1>
+    <h2 style="color: rgba(164, 79, 36, 0.846); font-size: x-small;">CSS는 HTML로 구성된 웹페이지를 꾸며줍니다.</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+    </ul>
+
+</body>
+</html>

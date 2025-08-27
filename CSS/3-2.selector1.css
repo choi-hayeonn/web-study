@@ -1,0 +1,29 @@
+/* 전체 선택자 */
+* {
+    color: rgb(69, 146, 146);
+}
+h1 {
+    color: rgb(45, 138, 205);
+} 
+    /* → 전체 선택자보다 부분 선택자가 우선순위 우위 */
+
+p {
+    background-color: rgba(131, 131, 232, 0.305);
+}
+
+/* 클래스 선택자 */
+.second {
+    color: rgb(168, 79, 79);
+}
+
+.bg {
+    background-color: rgba(250, 235, 215, 0.649);
+    color: rgb(118, 97, 138);
+}
+.font {
+    font-size: 25px;
+}
+#first{
+    color: rgb(201, 142, 70);
+}
+    /* → 하나의 요소에 id, class 둘 다 넣을 수 있다. id와 class 중에서는 id가 우위 */
