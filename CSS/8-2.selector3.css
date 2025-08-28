@@ -1,0 +1,91 @@
+.div1 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: beige;
+    cursor: pointer;
+}
+
+/* hover : 선택시 요소에 마우스 커서가 올라가 있는 동안 선택*/
+.div1:hover {
+    background-color: rgba(255, 228, 196, 0.575);
+}
+
+/* active : 마우스를 클릭하고 있는 동안 선택*/
+.div1:active {
+    background-color: rgba(210, 105, 30, 0.325);
+}
+
+.btn {
+    margin: 20px;
+    background-color: rgba(143, 188, 143, 0.515);
+    cursor: pointer;
+    padding: 1%;
+}
+.btn:hover {
+    background-color: rgba(102, 133, 102, 0.294);
+}
+.btn:active {
+    background-color: rgba(65, 86, 65, 0.294);
+}
+
+.my-input {
+    padding: 10px;
+}
+/* focus : 요소가 포커스되면 선택 */
+.my-input:focus {
+    background-color: rgba(255, 140, 0, 0.422);
+    outline-color: rgba(33, 220, 20, 0.283);
+}
+
+.link {
+    margin-top: 20px;
+}
+/* visited */
+.naver {
+    color: rgba(139, 0, 0, 0.525);
+}
+
+
+/* 동물원 */
+.zoo {
+    margin-bottom:  200px;
+}
+/* first child : 자식 요소 중 첫번째 */
+.zoo > *:first-child {
+    background-color: rgba(255, 0, 0, 0.172);
+}
+/* last child : 자식 요소 중 마지막 */
+.zoo > *:last-child {
+    background-color: rgba(203, 203, 114, 0.463);
+}
+/* nth child : 자식 요소 중 n번째 */
+.zoo > *:nth-child(3) {
+    background-color: rgba(255, 166, 0, 0.339);
+}
+.zoo > *:nth-child(2n+3) {
+    font-size: 25px;
+}
+
+.zoo > *:not(div) {
+    color: rgba(90, 30, 120, 0.678);
+}
+
+/* 택시 */
+.box {
+    margin-bottom: 50px;
+}
+/* before : 선택자 요소의 내부 앞에 내용(content) 삽입 */
+.box::before {
+    content: "택시~";
+    font-weight: bold;
+    color: rgba(0, 0, 255, 0.52);
+}
+/* after : 선택자 요소의 내부 뒤에 내용 삽입 */
+.box::after {
+    content: "빨리요~";
+    font-weight: bold;
+    color: rgba(255, 0, 0, 0.434);
+}
+

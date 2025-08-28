@@ -1,0 +1,32 @@
+/* 하위 선택자 - 많이 사용(핵심)*/
+body section {
+    border: 1px solid rgb(99, 85, 49);
+    padding: 10px;
+}
+
+body .first {
+    background-color: rgba(250, 235, 215, 0.485);
+}
+
+.first .font {
+    font-size: 25px;
+}
+
+/* 자식 선택자 - 많이 사용(핵심)*/
+section > li {
+    color: aqua;
+}
+    /* 자식 선택자는 바로 아래있는 것을 골라주는 것! */
+section > div {
+    font-size: 30px;
+}
+
+/* 인접 형제 선택자 : 고른 요소 바로 다음 하나만*/
+#aespa + li {
+    background-color: rgba(249, 137, 96, 0.319);
+}
+
+/* 일반 형제 선택자 : 고른 요소 다음 모든 요소*/
+#harry ~ li {
+    background-color: rgba(189, 183, 107, 0.201);
+}

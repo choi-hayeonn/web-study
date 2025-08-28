@@ -1,21 +1,21 @@
 * {
-    background-color: rgba(215, 245, 174, 0.103);
+    background-color: rgba(168, 197, 240, 0.071);
 }
 
 h1 {
-    color: rgb(54, 68, 30);
-    background-color: rgba(128, 255, 0, 0.375);
+    color: rgb(30, 45, 68);
+    background-color: rgba(0, 64, 255, 0.11);
     font-size: xx-large;
     font-weight: 1000;
 }
 
 section {
-    background-color: rgba(172, 255, 47, 0.281);
+    background-color: rgba(47, 102, 255, 0.153);
 }
 
 footer {
     font-size:small;
-    color: rgba(85, 107, 47, 0.703);
+    color: rgba(47, 79, 107, 0.703);
 }
 
 a {
@@ -27,14 +27,14 @@ nav {
 }
 
 h2 {
-    color: darkolivegreen;
+    color: rgb(47, 85, 107);
 }
 
 h3 {
-    color: rgb(61, 77, 35);  
+    color: rgb(35, 54, 77);  
 }
 
 p {
     font-size:small;
-    color: rgb(38, 48, 21);
+    color: rgb(21, 34, 48);
 }
