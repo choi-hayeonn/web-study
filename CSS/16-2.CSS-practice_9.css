@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #fcf9aa3f;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: #e9caef3b;
+    border: 2px solid #333;
+    position: relative; 
+    margin: 50px;
+}
+
+.item {
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+}
+
+.item1 {
+    background-color: #ff6b6ba5;
+    position: relative;
+    left: 50px;  
+    top: 30px;   
+}
+.item2 {
+    background-color: #4ecdc588;
+    position: absolute;
+    right: 30px;  
+    bottom: 100px; 
+}
+.item3 {
+    background-color: #45d1558f;
+    position: fixed;
+    right: 100px; 
+    top: 30px;    
+}

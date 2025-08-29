@@ -9,7 +9,6 @@
     form {
         width: 400px;
     }
-
     /* focus */
     textarea {
         width: 100%;
@@ -27,25 +26,29 @@
     }
     </style>
   </head>
-  <body>
-    <h3>건의 사항을 적어주세요!</h3>
-    <form>
-        <div>
-            <textarea placeholder="건의사항🎈"  class="box1"
-                    cols="30"
-                    rows="10"
-                ></textarea>
-        </div>
-        <div>
-            <div class="color">
-                <input type="checkbox" name="color" id="red"/> 빨강
-                <input type="checkbox" name="color" id="blue"/> 파랑
-                <input type="checkbox" name="color" id="yellow"/> 노랑
-            </div>
-            
-        </div>
+<body>
+  <h3>건의 사항을 적어주세요!</h3>
+  <form>
+    <!-- label
+          - 명시적 방식: id와 for 맞춰주기
+          - 암시적 방식: label 내부에 input 쓰기
+        -->
+    <textarea
+      id="textbox"
+      cols="50"
+      rows="10"
+      placeholder="건의 사항"
+    ></textarea>
+    <br />
 
-      <button>제출</button>
-    </form>
-  </body>
+    <input type="checkbox" name="color" id="red" />
+    <label for="red"> 빨강 </label>
+    <input type="checkbox" name="color" id="blue" />
+    <label for="blue"> 파랑 </label>
+    <input type="checkbox" name="color" id="yellow" />
+    <label for="yellow"> 노랑 </label>
+    <br />
+    <button>제출</button>
+  </form>
+</body>
 </html>

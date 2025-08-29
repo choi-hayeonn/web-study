@@ -3,24 +3,28 @@ h3:hover {
     background-color: rgba(255, 166, 0, 0.438);
 }
 
-.box1:active {
+textarea:focus {
     background-color: rgba(255, 255, 0, 0.439);
 }
 
-#red:checked {
+#red:checked + label {
     background-color: rgba(255, 0, 0, 0.478);
-    color: white;
+    color: rgb(96, 13, 13);
+    font-weight: bold;
 }
-#blue:checked {
+#blue:checked + label {
     background-color: rgba(0, 0, 255, 0.492);
-    color: white;
+    color: rgb(5, 32, 107);
+    font-weight: bold;
 }
-#red:checked {
-    background-color: rgba(255, 255, 0, 0.414);
-    color: white;
+#yellow:checked + label {
+    background-color: rgba(255, 255, 0, 0.477);
+    color: rgb(89, 84, 7);
+    font-weight: bold;
 }
 
 button:active {
     background-color: rgba(128, 0, 128, 0.499);
     color: rgb(128, 0, 128);
 }
+

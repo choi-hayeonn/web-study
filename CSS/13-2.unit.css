@@ -1,0 +1,44 @@
+html {
+    font-size: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    padding: 20px;
+    margin: 10px 0px;
+    border: 2px solid black; 
+}
+
+.px-box {
+    width: 200px;
+    background-color: rgba(245, 245, 220, 0.752);
+}
+
+/* % 단위 : 부모 요소 대비 퍼센트 */
+.percent-box {
+    width: 50%;
+    background-color: rgba(224, 255, 255, 0.691);
+}
+
+/* em 단위 : font 사이즈와 박스 사이즈 연동 (루트에 영향을 받지 않음)*/
+.em-box {
+    font-size: 30px;
+    width: 10em;
+    background-color: rgba(240, 128, 128, 0.355);
+}
+
+/* rem 단위 : 루트의 영향을 받아서 사이즈 변동, 안에 있는 폰트 사이즈와 연동되지는 않음. 맨위의 html의 폰트 사이즈와 연동 */
+.rem-box {
+    font-size: 30px;
+    width: 10rem;
+    background-color: rgba(128, 240, 128, 0.225);
+}
+
+/* viewport 단위 : 화면 크기 대비 펴센트 */
+.viewport-box {
+    width: 70vw;
+    background-color: rgba(222, 198, 176, 0.553);    
+}

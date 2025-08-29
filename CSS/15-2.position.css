@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    text-align: center;
+    align-content: center;
+}
+
+.position-relative {
+    background-color: rgba(224, 255, 255, 0.517);
+    position: relative;
+    left: 100px;
+}
+
+.position-absolute {
+    background-color: rgba(227, 245, 220, 0.702);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.position-fixed {
+    background-color: rgba(255, 182, 193, 0.173);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
