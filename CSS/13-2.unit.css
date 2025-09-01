@@ -23,14 +23,17 @@ html {
     background-color: rgba(224, 255, 255, 0.691);
 }
 
-/* em 단위 : font 사이즈와 박스 사이즈 연동 (루트에 영향을 받지 않음)*/
+/* em 단위 : font 사이즈와 박스 사이즈 연동 
+(루트에 영향을 받지 않음)*/
 .em-box {
     font-size: 30px;
     width: 10em;
     background-color: rgba(240, 128, 128, 0.355);
 }
 
-/* rem 단위 : 루트의 영향을 받아서 사이즈 변동, 안에 있는 폰트 사이즈와 연동되지는 않음. 맨위의 html의 폰트 사이즈와 연동 */
+/* rem 단위 : 루트의 영향을 받아서 사이즈 변동, 
+    안에 있는 폰트 사이즈와 연동되지는 않음. 
+    맨위의 html의 폰트 사이즈와 연동 */
 .rem-box {
     font-size: 30px;
     width: 10rem;
