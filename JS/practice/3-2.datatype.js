@@ -6,7 +6,6 @@ console.log("문자열", text);
 // 문자열의 연산
 let text2 = "반갑습니다";
 console.log(text + text2); // 문자열의 결합
-
 let name = "HY";
 let age = 10;
 console.log("안녕하세요 저는 " + name + "입니다. 나이는 " + age + "살입니다.");
@@ -115,14 +114,12 @@ let n2 = false;
 let n3 = 3.14;
 let n4 = "그냥 문자열";
 let n5 = "3.14";
-
 console.log(Number(n1), typeof Number(n1));
 console.log(Number(n2), typeof Number(n2));
 console.log(Number(n3), typeof Number(n3));
 console.log(Number(n4), typeof Number(n4));
 console.log(Number(undefined), typeof Number(undefined)); // "정의되지 않음" => 값이 아예 없는 것 => NaN
 console.log(Number(null), typeof Number(null)); // "값이 없음을 표현하는 값" => 0
-
 console.log(parseInt(n3, 10))
 console.log(parseInt(n5, 10))
 console.log(parseFloat(n5, 10))
