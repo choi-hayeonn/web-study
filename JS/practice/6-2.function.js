@@ -32,4 +32,4 @@ const triangle = (base , height) => {
     const area = (base * height) / 2;
     return area;
 };
-console.log("삼각형의 넓이", triangle(20,5))
+console.log("삼각형의 넓이:", triangle(20,5));

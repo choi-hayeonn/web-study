@@ -76,4 +76,4 @@ console.log("++count(check count) : ", count)
 
 
 let mathScore = prompt("수학점수 입력")
-console.log("수학점수", mathScore)
+console.log("수학점수: ", mathScore)

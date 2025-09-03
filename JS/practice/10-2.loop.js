@@ -27,6 +27,7 @@ for(let i = 1; i <101; i++) {
 console.log("1~100의 합 = ", sum);
 
 console.log("==============");
+
 // 2. while문
 // 조건을 기준으로 한 반복
 let i = 0
