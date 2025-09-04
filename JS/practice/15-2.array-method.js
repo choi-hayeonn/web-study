@@ -91,3 +91,8 @@ for(let fruit of fruits) {
 console.log("---------------------------");
 // 배열 메서드
 fruits.forEach((f) => console.log("forEach", f));
+
+
+// 요즘 많이 쓰는 형식
+let arr7 = [10 , 20 , 30 , 40 , 50]
+arr7.forEach((el, idx) => console.log(el, idx))
